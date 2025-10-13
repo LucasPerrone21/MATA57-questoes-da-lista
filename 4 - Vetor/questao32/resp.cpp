@@ -20,7 +20,6 @@ int main() {
         }
     }
 
-    // imprime em ordem inversa (últimas lembradas primeiro)
     for (int i = contador - 1; i >= 0; i--) {
         cout << arrayPlacasLembradas[i] << " ";
     }
